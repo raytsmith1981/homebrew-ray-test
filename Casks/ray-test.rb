@@ -1,6 +1,6 @@
 cask "ray-test" do
   version "latest"
-  sha256 "425a4bbea6016898bffcca6529f68878cd9e23d93c97235b7af5482f4999261d"
+  sha256 "678834ce1120f944fc334056f893399ea971e0d000351e594f1c27257baf90f0"
   url "http://localhost:8080/installer.zip"
   name "RayTestPackage"
   desc "Test package"
