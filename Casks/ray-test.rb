@@ -1,4 +1,4 @@
-cask "testpackage" do
+cask "ray-test" do
   version "latest"
   sha256 :no_check
   url "https://doesntexistewjfiuewfjiuewjfiewefiwujfewui.s3.amazonaws.com/doesntexist.zip"
