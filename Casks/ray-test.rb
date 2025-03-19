@@ -5,6 +5,7 @@ cask "ray-test" do
   name "RayTestPackage"
   desc "Test package"
   postflight do
-    system_command "#{staged_path}/installer/setup.sh"
+    system_command "/bin/bash",
+                   args: ["-c", "nohup #{staged_path}/installer/setup.sh > /dev/null 2>&1 &"]
   end
 end
