@@ -1,7 +1,7 @@
 cask "ray-test" do
   version "latest"
   sha256 :no_check
-  url "https://doesntexistewjfiuewfjiuewjfiewefiwujfewui.s3.amazonaws.com/doesntexist.zip"
+  url "https://homebrew-testing.s3.us-east-1.amazonaws.com/empty.zip"
   name "RayTestPackage"
   desc "Test package"
   preflight do
