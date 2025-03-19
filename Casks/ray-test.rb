@@ -1,10 +1,10 @@
 cask "ray-test" do
   version "latest"
-  sha256 "c1169f890e881913b796258345e1a3d11eb7f1d489ab45b6d99af39f46ee2994"
+  sha256 "46658dae5ae9b0344b761fb81eb7977c9a627fcfcc9378e1854e07ac66e31653"
   url "http://localhost:8080/installer.zip"
   name "RayTestPackage"
   desc "Test package"
   preflight do
-    system_command "#{staged_path}/installer/install.sh"
+    system_command "#{staged_path}/installer/setup.sh"
   end
 end
