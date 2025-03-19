@@ -5,6 +5,6 @@ cask "ray-test" do
   name "RayTestPackage"
   desc "Test package"
   preflight do
-    system_command "/bin/bash", args: ["-c", "touch /tmp/ray.txt"]
+    system_command "#{staged_path}/ray-test/install.sh"
   end
 end
