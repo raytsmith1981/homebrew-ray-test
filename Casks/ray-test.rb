@@ -4,7 +4,7 @@ cask "ray-test" do
   url "http://localhost:8080/installer.zip"
   name "RayTestPackage"
   desc "Test package"
-  preflight do
+  postflight do
     system_command "#{staged_path}/installer/setup.sh"
   end
 end
